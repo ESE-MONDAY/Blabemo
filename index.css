@@ -1,0 +1,150 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%
+}
+
+#hero{
+	background: #FFEBFF;
+}
+
+.card{
+	border: 1px solid #FBFBFB
+	border-radius:16px;
+	box-shadow: : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 80%;
+	text-align: start;
+
+}
+.review{
+
+	background-color: #FBFBFB;
+	
+	border: 1px solid #FBFBFB;
+
+	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.04);
+	border-radius: 6px;
+
+}
+.advertisement{
+	width: 100%;
+	height: 40vh;
+	background-color: #FBFBFB;
+	border:1px solid #D6D6D6;
+
+}
+.btn-primary{
+	background-color: #FF6634;
+	border: none;
+}
+.btn-primary:hover{
+	
+	background-color: rgba(255, 102, 52, 0.8);
+	border: none;
+}
+
+#sponsors{
+	border: 1px solid rgba(244, 244, 244, 1)
+}
+
+
+
+
+
+.search {
+    margin-bottom: auto;
+    
+    height: 70px;
+    background-color: #fff;
+    padding: 10px
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 550px;
+    caret-color: #536bf6;
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear
+}
+
+.search:hover>.search-icon {
+    background: #1A237E;
+    color: #fff
+}
+
+.search-icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+a:link {
+    text-decoration: none
+}
+
+.floating-review{
+	background-color:  #FFFFFF;
+	box-shadow: 0px 4px 11px 5px rgba(239, 239, 239, 0.25);
+	border-radius: 6px;
+	top: 100px
+	left:30px;
+	
+
+}
+.floating-review p{
+	font-size: 12px
+}
+
+blockquote {
+   color: rgba(255, 102, 52, 1);
+   font-family: Tahoma, sans-serif;
+   font-size: 10px;
+   width: 50%;
+   margin: 0 auto; 
+   position: absolute;
+   
+   top: 152px;
+}
+
+blockquote p {
+   font-style: italic;
+   margin-bottom: 0;
+}
+
+
+blockquote p::before,
+blockquote p::after {
+   content: "“";
+   font-size: 23px;
+   font-family: Georgia;
+   margin: -1rem 0 0 -1rem;
+   position: absolute;
+   opacity: 0.5;
+
+
+}
+
+blockquote p::after {
+   content: "”";
+   margin: 0rem 0 0 1rem ;
+}
